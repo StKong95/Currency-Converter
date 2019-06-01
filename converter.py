@@ -1,7 +1,7 @@
 import requests
 import re
 
-source= "https://api.ratesapi.io/api/latest?base="
+source= "https://api.exchangeratesapi.io/latest?base="
 currencies = ["USD", "GBP", "EUR", "CAD", "CNY", "HKD", "JPY", "AUD", "BGN", "NZD", "ILS", "RUB", "PHP", "CHF", "TRY", "MYR", "HRK", "CZK", "IDR", "DKK", "NOK", "HUF", "MXN", "THB", "ISK", "ZAR", "BRL", "SGD", "PLN", "INR", "KRW", "RON", "SEK"]
 
 # Continuously loop program until user does not want to continue.
@@ -48,6 +48,6 @@ while True:
     # Prompt to redo the program.
     print("\nContinue? (y/n): ")
     if input() == 'n':
-        raise SystemExit
+        break
     else:
         print("\n")
