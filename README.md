@@ -1,12 +1,12 @@
 ﻿# Currency Converter
 
-This is a simple currency converter using the Rates API.
+This is a simple currency converter using the Exchange rates API.
 
 - Version: **1.00**
 - Licensed under: **GPLv3**
 
 ## Packages Used
-- [Rates API](https://ratesapi.io/)
+- [Exchange rates](https://github.com/exchangeratesapi/exchangeratesapi)
 
 ## Instructions
 
