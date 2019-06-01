@@ -1,4 +1,4 @@
-﻿﻿# Currency Converter
+﻿# Currency Converter
 
 This is a simple currency converter using the Rates API.
 
