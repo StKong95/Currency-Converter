@@ -28,7 +28,7 @@ while True:
 
     # Currency amount input and validation
     while True:
-        print("\nEnter currency amount: ")
+        print("\nEnter amount to convert: ")
         amount = input()
         if '.' in amount:
             decimal = re.findall(r'(\w+).(\w+)',amount)
